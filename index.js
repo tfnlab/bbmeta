@@ -31,7 +31,7 @@ app.get('/api/token/:token_id', function(req, res) {
       'Treasure Chest': `${person.art}`,
       'Body Armor': `${person.prot}`,
       'Shield': `${person.bodyarmor}`,
-      'Backpack': `${person.mag}`,
+      'Backpack': `${person.bagpack}`,
       'Communication Device': `${person.ant}`,
       'Special Battery Pack': `${person.bp}`,
       'Power Level': `${person.chest}`,
