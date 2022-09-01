@@ -23,7 +23,7 @@ app.get('/api/token/:token_id', function(req, res) {
   const person = db[tokenId]
   const data = {
     'name': tokenId,
-    'background_color': '000000'
+    'background_color': '000000',
     'animation_url': `${person.glburl}`,
     'attributes': {
       'Region': `${person.env}`,
